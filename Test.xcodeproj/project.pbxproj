@@ -14,6 +14,9 @@
 		9621626428C25F9D0070F335 /* MyTextFieldsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621626328C25F9D0070F335 /* MyTextFieldsSection.swift */; };
 		9621626628C2603D0070F335 /* MyInfoViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621626528C2603D0070F335 /* MyInfoViewsSection.swift */; };
 		9652E2E728C11453006004BC /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652E2E628C11453006004BC /* MyInfoView.swift */; };
+		966D1F9128DA03B200B227F4 /* ChatContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D1F9028DA03B200B227F4 /* ChatContent.swift */; };
+		966D1F9328DA0BA300B227F4 /* ChatContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D1F9228DA0BA300B227F4 /* ChatContentView.swift */; };
+		968A162928E4D431007BCEA1 /* FlippedUpsideDownModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A162828E4D431007BCEA1 /* FlippedUpsideDownModifier.swift */; };
 		969E71FF28CFA1980033ECF3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E71FE28CFA1980033ECF3 /* TabBar.swift */; };
 		96A7AB3428BF897B002F4163 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A7AB3328BF897B002F4163 /* MyTextField.swift */; };
 		96EF560928BA4CDF008C933A /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EF560828BA4CDF008C933A /* TestApp.swift */; };
@@ -51,6 +54,9 @@
 		9621626328C25F9D0070F335 /* MyTextFieldsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextFieldsSection.swift; sourceTree = "<group>"; };
 		9621626528C2603D0070F335 /* MyInfoViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewsSection.swift; sourceTree = "<group>"; };
 		9652E2E628C11453006004BC /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
+		966D1F9028DA03B200B227F4 /* ChatContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContent.swift; sourceTree = "<group>"; };
+		966D1F9228DA0BA300B227F4 /* ChatContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContentView.swift; sourceTree = "<group>"; };
+		968A162828E4D431007BCEA1 /* FlippedUpsideDownModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedUpsideDownModifier.swift; sourceTree = "<group>"; };
 		969E71FE28CFA1980033ECF3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		96A7AB3328BF897B002F4163 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
 		96EF560528BA4CDF008C933A /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +134,9 @@
 				96F40C2928CDE2850021798B /* Utils.swift */,
 				960147F228C3B2D300459384 /* ChatsView.swift */,
 				969E71FE28CFA1980033ECF3 /* TabBar.swift */,
+				966D1F9028DA03B200B227F4 /* ChatContent.swift */,
+				966D1F9228DA0BA300B227F4 /* ChatContentView.swift */,
+				968A162828E4D431007BCEA1 /* FlippedUpsideDownModifier.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -289,12 +298,15 @@
 			files = (
 				9621626628C2603D0070F335 /* MyInfoViewsSection.swift in Sources */,
 				9621626228C235850070F335 /* MyMainButton.swift in Sources */,
+				966D1F9328DA0BA300B227F4 /* ChatContentView.swift in Sources */,
 				9652E2E728C11453006004BC /* MyInfoView.swift in Sources */,
 				969E71FF28CFA1980033ECF3 /* TabBar.swift in Sources */,
 				960147F528C3B47800459384 /* Chat.swift in Sources */,
 				96A7AB3428BF897B002F4163 /* MyTextField.swift in Sources */,
 				9621626028C22FAE0070F335 /* MyDivider.swift in Sources */,
 				96EF560B28BA4CDF008C933A /* ProfileView.swift in Sources */,
+				966D1F9128DA03B200B227F4 /* ChatContent.swift in Sources */,
+				968A162928E4D431007BCEA1 /* FlippedUpsideDownModifier.swift in Sources */,
 				96F40C2A28CDE2850021798B /* Utils.swift in Sources */,
 				960147F328C3B2D300459384 /* ChatsView.swift in Sources */,
 				9621626428C25F9D0070F335 /* MyTextFieldsSection.swift in Sources */,

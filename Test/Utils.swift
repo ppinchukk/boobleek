@@ -29,3 +29,7 @@ func getChatsView() -> Chat {
         endDate: endDate!
     )
 }
+
+func getChatContentView() -> ChatContent {
+    return ChatContent(picture: "kotik", name: "Andrew", time: "2:30 PM", message: "I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik I'm kotik")
+}

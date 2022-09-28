@@ -12,7 +12,19 @@ struct TestApp: App {
 
     var body: some Scene {
         WindowGroup(content: {
-            TabBar()
+            ChatContentView(arrayOfMessages: [
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView(),
+              getChatContentView()
+            ])
+//            TabBar()
         })
     }
 }
