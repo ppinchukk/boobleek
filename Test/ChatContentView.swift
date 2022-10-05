@@ -41,6 +41,8 @@ struct ChatContentView: View {
                         RoundedRectangle(cornerRadius: 30)
                             .stroke(.gray, lineWidth: 1)
                     )
+                    .submitLabel(.send)
+                    
                 Image("send")
                     .resizable()
                     .scaledToFit()
